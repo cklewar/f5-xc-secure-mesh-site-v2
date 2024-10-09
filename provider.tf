@@ -1,7 +1,3 @@
-variable "f5xc_api_p12_file" {
-  type = string
-}
-
 provider "volterra" {
   url          = var.f5xc_api_url
   alias        = "default"
