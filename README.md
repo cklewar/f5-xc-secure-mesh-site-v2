@@ -23,7 +23,7 @@ module "sms" {
   f5xc_sms_name               = var.f5xc_sms_name
   f5xc_api_token              = var.f5xc_api_token
   f5xc_namespace              = var.f5xc_namespace
-  f5xc_sms_provider_name      = var.f5xc_sms_provider_name
+  f5xc_sms_provider_name      = "rseries"
   f5xc_sms_master_nodes_count = var.f5xc_sms_master_nodes_count
   providers = {
     restful = restful.default
